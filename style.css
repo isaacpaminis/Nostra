@@ -4,6 +4,7 @@
     padding: 0;
 
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -202,6 +203,7 @@ body {
     cursor: pointer;
     color: black;
 }
+
 /* Red Heart */
 .liked {
     color: red;
@@ -245,6 +247,7 @@ body {
     font-size: 18px;
     cursor: pointer;
 }
+
 /* News */
 .news {
     text-align: center;
@@ -282,6 +285,7 @@ body {
     cursor: pointer;
     border-radius: 5px;
 }
+
 /* footer */
 .footer {
     background: #1D232C;
@@ -440,6 +444,10 @@ body {
 }
 
 @media screen and (max-width:768px) {
+    .slider-content {
+        top: 60%;
+        transform: translate(-50%, -50%);
+    }
 
     .new-arrival {
         flex-direction: column;
