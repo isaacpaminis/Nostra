@@ -445,11 +445,21 @@ body {
 
 @media screen and (max-width:768px) {
 
-    .slider-content {
-        top: 55%;
-        transform: translate(-50%, -50%);
-        padding: 10px;
-    }
+.slider-content{
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    padding:10px;
+    width:90%;
+}
+
+.slider-content h1{
+    font-size:18px;
+}
+
+.slider-content h4{
+    font-size:14px;
+}
 
     .new-arrival {
         flex-direction: column;
